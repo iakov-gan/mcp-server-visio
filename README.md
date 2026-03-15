@@ -8,6 +8,8 @@ By directly controlling Microsoft Visio, this MCP server supports not only initi
 
 The Visio MCP Server is designed for use with GitHub Copilot CLI and VS Code Agent Mode, but it can also be integrated with other LLM-based systems.
 
+![diagram](image.png)
+
 ## Features
 
 - **Azure service icons** — 206 Azure services from official Visio stencils (auto-discovered)
