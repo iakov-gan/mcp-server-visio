@@ -1,6 +1,12 @@
 # Visio MCP Server
 
-An MCP (Model Context Protocol) server that exposes Microsoft Visio diagram operations as tools, designed for use with GitHub Copilot CLI and VS Code Agent Mode. Build Azure architecture diagrams through natural language.
+Are you a solution architect looking to build high‑quality architecture diagrams or evolve existing ones to reflect recent changes? We’ve got you covered.
+
+The Visio MCP (Model Context Protocol) Server exposes Microsoft Visio diagram operations as tools, enabling you to generate production‑grade architecture diagrams from text descriptions, images, and documents.
+
+By directly controlling Microsoft Visio, this MCP server supports not only initial diagram generation but also iterative refinement and evolution. You can continuously improve and adapt diagrams until they meet the highest quality standards.
+
+The Visio MCP Server is designed for use with GitHub Copilot CLI and VS Code Agent Mode, but it can also be integrated with other LLM-based systems.
 
 ## Features
 
@@ -115,6 +121,16 @@ Create a 3-tier Azure architecture with Front Door, VM Scale Sets in 2 availabil
 ```
 
 The server will create a professional Visio diagram with proper Azure icons, tier bands, containers, and styled connectors.
+
+## See also
+Also you can explore other MCP for simpiar tasks that generates architecture in different formats:
+| Project | Type | Description | Link |
+|------|------|------------|------|
+| **draw.io MCP (official)** | MCP Server | Official draw.io Model Context Protocol server. Opens and generates diagrams directly in the draw.io editor. Supports native XML, CSV, and Mermaid inputs. | https://github.com/jgraph/drawio-mcp |
+| **drawio-mcp-server** | MCP Server | Community MCP server providing full programmatic control over draw.io diagrams, including creation, inspection, modification, and iterative refinement via an embedded editor. | https://github.com/lgazo/drawio-mcp-server |
+| **draw_architecture_mcp** | MCP Server | Architecture‑focused MCP server for generating and maintaining draw.io diagrams from structured models (e.g. YAML). Well suited for large infrastructure and network diagrams. | https://github.com/dwgeneral/draw_architecture_mcp |
+| **Excalidraw MCP** | MCP Server | MCP server for generating and evolving hand‑drawn‑style diagrams using Excalidraw, often paired with draw.io MCPs for different visual styles. | https://github.com/excalidraw/excalidraw-mcp |
+| **Mermaid** | Diagram DSL | Text‑based diagram language commonly used as an intermediate format for MCP‑driven diagram generation (including draw.io imports). | https://mermaid.js.org |
 
 ## License
 
