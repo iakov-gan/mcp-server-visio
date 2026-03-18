@@ -13,7 +13,7 @@ The Visio MCP Server is designed for use with GitHub Copilot CLI and VS Code Age
 ## Demo
 
 <a href="./assets/screen-demo.gif">
-  <img src="./assets/screen-demo-small.gif" alt="Demo" width="600">
+  <img src="./assets/demo.gif" alt="Demo" width="600">
 </a>
 
 ## Features
