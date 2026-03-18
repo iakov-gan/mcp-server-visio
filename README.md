@@ -2,6 +2,12 @@
 
 An MCP (Model Context Protocol) server that exposes Microsoft Visio diagram operations as tools, designed for use with GitHub Copilot CLI and VS Code Agent Mode. Build Azure architecture diagrams through natural language.
 
+## Demo
+
+<a href="./assets/screen-demo.gif">
+  <img src="./assets/screen-demo-small.gif" alt="Demo" width="600">
+</a>
+
 ## Features
 
 - **Azure service icons** — 206 Azure services from official Visio stencils (auto-discovered)
